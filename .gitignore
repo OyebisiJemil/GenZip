@@ -1,0 +1,36 @@
+# Ignore build outputs
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+# Ignore NuGet package outputs
+*.nupkg
+*.snupkg
+*.nuspec
+
+# Ignore NuGet restore-related files
+.nuget/
+packages/
+project.lock.json
+project.assets.json
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore Rider/VSCode/Visual Studio settings
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore test results if your library has tests
+TestResults/
+.coverage

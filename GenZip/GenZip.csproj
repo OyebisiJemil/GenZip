@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<!-- Nuget Package Metadata -->
+	<PackageId>GenZip</PackageId>
+	<Version>1.0.0</Version>
+	<Authors>Jemil Oyebisi</Authors>
+	<Company>https://x.com/ojemil</Company>
+	<Description>A generic library for creating ZIP archives from files, it supports any file type (e.g., Excel, CSV, text, etc.).</Description>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageProjectUrl>https://github.com/OyebisiJemil/GenZip</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/OyebisiJemil/GenZip</RepositoryUrl>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+	<None Include="README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>
